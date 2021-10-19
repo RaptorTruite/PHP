@@ -1,6 +1,7 @@
 <?php
     require_once('includes/function.php');
     require_once('includes/variables.php');
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +33,7 @@
         <a class="nav-link" href="#">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="logout" tabindex="-1" aria-disabled="true">Logout</a>
       </li>
     </ul>
   </div>

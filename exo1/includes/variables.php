@@ -1,4 +1,7 @@
 <?php
+    $username = 'username';
+    $password = 'password';
+
     $bonnets = ['Bonnet en laine', 'Bonnet en laine bio', 'Bonnet en laine et cachemire', 'Bonnet arc-en-ciel'];
     $bonnetsComplexe = [
         ['Bonnet en laine', 10, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a leo diam. Quisque lorem orci, accumsan quis dolor sed, gravida.'], 
