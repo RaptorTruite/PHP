@@ -1,9 +1,4 @@
-<? include_once 'header.php'; ?>
-
-<?php
-    include_once 'function.php';
-    include_once 'variables.php';
-?>
+<?php include 'includes/header.php'; ?>
 
 <?php //exo 1
         echo    '<table>
@@ -95,4 +90,4 @@
 ?>
 
 
-<? include_once 'footer' ?>
+<?php include 'includes/footer.php' ?>
