@@ -1,5 +1,4 @@
 <?php include 'includes/header.php'; ?>
-<?php include 'includes/list.php'; ?>
 
 <div class="row">
 
@@ -33,6 +32,10 @@
         </div>
     </div>
         
+</div>
+
+<div class="text-center">
+    <a class="btn btn-primary" href="list">Voir tout le catalogue</a>
 </div>
 
 <?php include 'includes/footer.php' ?>

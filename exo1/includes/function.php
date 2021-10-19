@@ -4,12 +4,13 @@ function calculateWithoutTaxe(float $price): float{
     }
 
     function showItem($item): void{
-        $style = ($item[1] > 12)? 'style="color: blue"' : 'style="color: green"';
-        $prixHT = calculateWithoutTaxe($item[1]);
-        echo    "<tr $style>
-                    <td>$item[0]</td>
-                    <td>($prixHT € HT) $item[1] € TTC</td> 
-                    <td>$item[2]</td>
-                </tr>";
+        echo    '<div class="card col-3 m-4">
+                <img>
+                    <div class="card-body">
+                        <h5 class="card-title">'.$item[0].'</h5>
+                        <p class="card-text">'.$item[2].'</p>
+                        <p class="card-text">'.$item[1].' €</p>
+                    </div>
+                </div>';
     }
 ?>
