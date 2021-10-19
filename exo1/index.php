@@ -28,6 +28,7 @@
 ?>
 
 <?php //exo 2
+        echo '<br>';
         echo    '<table>
                     <thead>
                         <td>Bonnet</td>
@@ -46,6 +47,7 @@
 ?>
 
 <?php //exo 3
+        echo '<br>';
         echo    '<table>
                     <thead>
                         <td>Bonnet</td>
@@ -65,6 +67,7 @@
 ?>
 
 <?php //exo 4
+        echo '<br>';
         echo    '<table>
                     <thead>
                         <td>Bonnet</td>
@@ -85,7 +88,7 @@
 ?>
 
 <?php //exo 5
-        
+        echo '<br>';
         echo    '<table>
                     <thead>
                         <td>Bonnet</td>
