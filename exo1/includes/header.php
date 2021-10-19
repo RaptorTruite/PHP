@@ -33,7 +33,7 @@
         <a class="nav-link" href="#">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="logout" tabindex="-1" aria-disabled="true">Logout</a>
+        <a class="nav-link" href="index?page=logout" tabindex="-1" aria-disabled="true">Logout</a>
       </li>
     </ul>
   </div>
