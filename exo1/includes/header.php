@@ -1,7 +1,7 @@
 <?php
-require_once('includes/function.php');
-require_once('includes/variables.php');
 session_start();
+require_once('includes/variables.php');
+require_once('includes/function.php');
 ?>
 
 <!DOCTYPE html>

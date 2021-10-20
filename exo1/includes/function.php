@@ -7,9 +7,9 @@ function calculateWithoutTaxe(float $price): float{
         echo    '<div class="card col-3 m-4">
                 <img>
                     <div class="card-body">
-                        <h5 class="card-title">'.$item[0].'</h5>
-                        <p class="card-text">'.$item[2].'</p>
-                        <p class="card-text">'.$item[1].' €</p>
+                        <h5 class="card-title">'.$item->getname().'</h5>
+                        <p class="card-text">'.$item->getdescription().'</p>
+                        <p class="card-text">'.$item->getprice().' €</p>
                         <button class="btn btn-primary">Ajouter au panier</button>
                     </div>
                 </div>';

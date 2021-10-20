@@ -2,7 +2,7 @@
     <div class="row justify-content-center">
 
         <?php
-        foreach ($bonnetsComplexe as $bonnet) {
+        foreach ($products as $bonnet) {
             showItem($bonnet);
         }
         ?>
