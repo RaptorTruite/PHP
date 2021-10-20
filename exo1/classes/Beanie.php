@@ -7,11 +7,13 @@ class Beanie
     protected string $name;
     protected int $price;
     protected string $description;
-    protected string $size;
-    protected string $material;
+    protected array $sizes;
+    protected array $materials;
 
     public function __construct()
     {
+        $this->sizes = [];
+        $this->materials = [];
     }
 
     public function getName(): string
@@ -47,25 +49,37 @@ class Beanie
         return $this;
     }
 
-    public function getSize(): int
+    public function getSizes(): array
     {
-        return $this->size;
+        return $this->sizes;
     }
 
-    public function setSize($size): Beanie
+    public function setSizes($sizes): Beanie
     {
-        $this->size = $size;
+        $this->sizes = $sizes;
         return $this;
     }
 
-    public  function getMaterial(): string
+    public function addSize($size): Beanie
     {
-        return $this->material;
+        $this->sizes[] = $size;
+        return $this;
     }
 
-    public function setMaterial($material): Beanie
+    public  function getMaterials(): array
     {
-        $this->material = $material;
+        return $this->materials;
+    }
+
+    public function setMaterials($materials): Beanie
+    {
+        $this->materials = $materials;
+        return $this;
+    }
+
+    public function addMaterial($material): Beanie
+    {
+        $this->materials[] = $material;
         return $this;
     }
 }

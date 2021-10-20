@@ -9,32 +9,33 @@
     ->setName('Bonnet en laine')
     ->setPrice(10)
     ->setDescription('lorem')
-    ->setSize(Beanie::SIZES[0])
-    ->setMaterial(Beanie::MATERIALS[0]);
+    ->addSize(Beanie::SIZES[0])
+    ->addMaterial(Beanie::MATERIALS[0]);
 
     $beanie2 = new Beanie();
     $beanie2
     ->setName('Bonnet en laine bio')
     ->setPrice(14)
     ->setDescription('lorem')
-    ->setSize(Beanie::SIZES[1])
-    ->setMaterial(Beanie::MATERIALS[1]);
+    ->addSize(Beanie::SIZES[1])
+    ->addMaterial(Beanie::MATERIALS[1]);
 
     $beanie3 = new Beanie();
     $beanie3
     ->setName('Bonnet en laine et cachemire')
     ->setPrice(20)
     ->setDescription('lorem')
-    ->setSize(Beanie::SIZES[2])
-    ->setMaterial(Beanie::MATERIALS[2]);
+    ->addSize(Beanie::SIZES[2])
+    ->addMaterial(Beanie::MATERIALS[0])
+    ->addMaterial(Beanie::MATERIALS[2]);
 
     $beanie4 = new Beanie();
     $beanie4
-    ->setName('Bonnet erc-en-ciel')
+    ->setName('Bonnet arc-en-ciel')
     ->setPrice(12)
     ->setDescription('lorem')
-    ->setSize(Beanie::SIZES[0])
-    ->setMaterial(Beanie::MATERIALS[0]);
+    ->addSize(Beanie::SIZES[0])
+    ->addMaterial(Beanie::MATERIALS[0]);
         
 
     $products = [$beanie1, $beanie2, $beanie3, $beanie4];
