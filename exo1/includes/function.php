@@ -14,4 +14,3 @@ function calculateWithoutTaxe(float $price): float{
                     </div>
                 </div>';
     }
-?>
