@@ -2,7 +2,7 @@
 class Beanie
 {
     const SIZES = ['S', 'M', 'L'];
-    const MATERIALS = ['Wool', 'Organic Wool', 'Cashemere'];
+    const MATERIALS = ['Wool', 'Organic Wool', 'Cashmere'];
 
     protected string $name;
     protected int $price;
